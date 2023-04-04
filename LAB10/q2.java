@@ -23,7 +23,8 @@ public class q2{
         double radius = sc.nextDouble();
         Circle c = new Circle();
         c.set_radius(radius);
-        System.out.println("area" + c.getArea());
+        System.out.println("area " + c.getArea());
         System.out.println("preimeter is " + c.getPerimeter());
+    sc.close();
     }
 }
